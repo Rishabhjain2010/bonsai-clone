@@ -1,5 +1,6 @@
-import React from "react";
+import React from 'react';
 import styles from '../styles/features.module.scss' ;
+
 
 const features = ({title , description , buttonText , imgSrc , imgAlt }) => {
 return (
