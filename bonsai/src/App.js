@@ -1,23 +1,44 @@
 import logo from './logo.svg';
 import './App.css';
+import features from './Components/features/features';
+import 
 
-function App() {
+const features = [
+  {
+tittle: 'Deliver projects on-time & on-budget' ,
+description: '✓ Assign, prioritize & track tasks, '
+              '✓ Track your budget across projects.'
+              '✓ Log your team's time in-app or in timesheets.' ,
+buttonText: 'Get Started ',
+imgSrc:  '' ,
+altImg:  '' 
+
+}, 
+{
+tittle: '' ,
+description: '' ,
+buttonText: ' ',
+imgSrc:  '' ,
+altImg:  '' 
+
+},{
+tittle: '' ,
+description: '' ,
+buttonText: ' ',
+imgSrc:  '' ,
+altImg:  '' 
+
+}
+]
+
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {features.map((feature, index) => (
+        <Feature key={index} {...feature} />
+      ))}
     </div>
   );
 }
