@@ -1,0 +1,139 @@
+.App {
+}
+
+.first{
+  align-items: center;
+}
+
+.imgbg{
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  height: 810px;
+  width: 530px;
+  background-color: rgb(244,242,240);
+  border-bottom-left-radius: 110px;
+}
+
+.mainbox{
+  margin: 190px;
+  margin-top: 145px;
+  display: flex;
+  gap: 133px;
+}
+
+
+
+.left{
+  width: 50%;
+  pointer-events: none;
+}
+
+.left h4{
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.dribbble{
+  display: flex;
+  margin-top: 100px;
+  gap: 15px;
+}
+
+.left p{
+  margin-top: 40px;
+  margin-right: 90px;
+}
+
+.left h1{
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: 500;
+  line-height:100%;
+}
+
+.left button{
+  height: 45px;
+  width: 130px;
+  border-radius: 7px;
+  background-color: rgb(34,173,1);
+  color: white;
+  font-size: 15px;
+  border: 0cap;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.right{ 
+  width: 43%;
+  pointer-events: none;
+
+}
+
+.right img{
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  border-top-left-radius: 7px;
+}
+
+.second{
+  text-align: center;
+  font-size:large ;
+  font-weight: 100;
+}
+
+.second img{
+  width: 73%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: -3px 10px 20px 15px rgba(0,0,0,.1);
+}
+
+.third{
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2, 120px);
+  gap: 100px;
+  margin-top: 100px;
+  margin-left:200px;
+}
+
+.third div{
+}
+
+.third div h1{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.third div p{
+  font-size: 15px;
+  font-weight: 500;
+  color: grey;
+  margin-right: 50px;
+}
+
+.willian{
+  background-color: rgb(244,242,240);
+  margin-top: 120px;
+  margin-inline: 195px;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  position: relative;
+  border-radius: 20px;
+}
+
+.willimg img{
+  border-radius: 15px;
+}
+
+.willtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
