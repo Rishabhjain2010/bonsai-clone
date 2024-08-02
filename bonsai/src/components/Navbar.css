@@ -1,0 +1,91 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px; */
+    background-color: white;
+    /* border: 2px solid red; */
+    border-bottom: 1px solid gray;
+    font:16px;
+  }
+  .navbar-logo{
+    display:flex;
+
+    
+  }
+  .navbar-logo img {
+    height: 40px;
+    position: absolute;
+    left: 5rem;
+    top: 7px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid yellow; */
+    margin-left: 10rem;
+    height: 60px;
+    /* border-bottom: 2px solid #22ad01/; */
+
+
+  }
+  
+  .navbar-menu li {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    /* border: 2px solid red; */
+  }
+
+  
+  .navbar-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    color: #0f0f0f;
+    font-weight: bold;
+  }
+  
+  .navbar-menu li a:hover {
+    color: green;
+    /* border-bottom: 3px solid #22ad01;  */
+    /* border: 2px solid blue; */
+  }
+  
+  .navbar-buttons {
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 100%;
+    background-color: #bfbebe5c;
+    width: 30%;
+    justify-content: flex-end;
+    /* padding: 5px; */
+    height: 50px;
+  }
+  .navbar-buttons .login-btn {
+    margin-right: 20px;
+    border:none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .navbar-buttons .startfree-btn{
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 3rem;
+    background-color: #22ad01;
+    color: white;
+    border-radius: 5px;
+
+  }
