@@ -1,7 +1,7 @@
-// import styles from "../styles/design";
+import "../styles/design.css"
 
 
-function App() {
+function Dashboard() {
   return (
 
     <div className="App">
@@ -29,44 +29,56 @@ function App() {
 
       <div className="second">
         <h1>Bonsai for Design agencies</h1>
-        <img src="https://cdn.prod.website-files.com/637e5892fb4b6db88a62cc0a/66aa4b98cc4eba312364ad9f_Bonsai%20for%20Design%20agencies-p-1600.png" alt="" />
+        <img src="https://cdn.prod.website-files.com/637e5892fb4b6db88a62cc0a/66aa4b98cc4eba312364ad9f_Bonsai%20for%20Design%20agencies-p-1600.png" alt="" width="1060"/>
       </div>
 
       <div className="third">
         <div className="tasks">
           <img src="/assets/tasks.svg" alt="" />
-          <h1>Tasks</h1>
-          <p>Assign, estimate, and track tasks across projects.</p>
+          <div className="col">
+            <h1>Tasks</h1>
+            <p>Assign, estimate, and track tasks across projects.</p>
+          </div>
         </div>
 
         <div className="time">
           <img src="/assets/time tracking.svg" alt="" />
-          <h1>Time Tracking</h1>
-          <p>See where time is spent with the tracker and timesheets.</p>
+          <div className="col">
+            <h1>Time Tracking</h1>
+            <p>See where time is spent with the tracker and timesheets.</p>
+          </div>
         </div>
 
         <div className="budget">
           <img src="/assets/budget tracking.svg" alt="" />
-          <h1>budget Tracking</h1>
-          <p>Keep projects profitable and stay within budget.</p>
+          <div className="col">
+            <h1>budget Tracking</h1>
+            <p>Keep projects profitable and stay within budget.</p>
+          </div>
         </div>
 
         <div className="invoices">
           <img src="/assets/invoices.svg" alt="" />
-          <h1>Invoices</h1>
-          <p>Get paid faster with integrated billing and online payments.</p>
+          <div className="col">
+            <h1>Invoices</h1>
+            <p>Get paid faster with integrated billing and online payments.</p>
+          </div>
         </div>
 
         <div className="resourcing">
           <img src="/assets/resourcing.svg" alt="" />
-          <h1>Resourcing</h1>
-          <p>Plan work schedules on capacity and ongoing commitments.</p>
+          <div className="col">
+            <h1>Resourcing</h1>
+            <p>Plan work schedules on capacity and ongoing commitments.</p>
+          </div>
         </div>
 
         <div className="reports">
           <img src="/assets/reports.svg" alt="" />
-          <h1>Reports</h1>
-          <p>Dive into each project's performance with real-time data.</p>
+          <div className="col">
+            <h1>Reports</h1>
+            <p>Dive into each project's performance with real-time data.</p>
+          </div>
         </div>
       </div>
 
@@ -90,4 +102,4 @@ function App() {
   );
 }
 
-export default App;
+export default Dashboard;
