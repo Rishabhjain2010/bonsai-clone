@@ -1,0 +1,62 @@
+.ratingcontainer {
+    display: flex;
+    flex-direction: column ;
+    text-align: center;
+    padding: 2rem;
+    margin-left: 255px ;
+    margin-right:255px ;
+    font-family: Arial, sans-serif;
+    align-items: center;
+  
+    .ratingheader {
+      display: flex;
+      flex: 1 ;
+      align-items: center;
+      text-align: center;
+      font-size: 46px;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  
+    .ratingbody {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      font: sans-serif ;
+  
+      .ratingitem {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;  
+  
+        .stars {
+          color: green;
+          font-size: 2rem;
+        }
+  
+        .ratingtext {
+          margin-top: 0.5rem;
+          font-size: 16px;
+          
+        }
+
+        .ratingdiv{
+          display: flex;
+          gap: 5px;
+        }
+      }
+  
+      .ratingdescription {
+        display: flex ;
+        border-left: solid 1px gray;
+        text-align: left ;
+        font-size: 16px;
+        color: gray;
+        max-width: 300px;
+        padding-left: 50px ;
+      }
+    }
+  }
+  
