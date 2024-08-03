@@ -1,0 +1,130 @@
+.section{
+    display:  flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    width: 100%;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+
+            .main{
+                background-color: #f2f4f0;
+                display: flex;
+                position: relative;
+                overflow: visible;
+                flex-direction: column;
+                align-items: center;   
+                justify-content: center;
+                margin-top: 40px;
+                margin-bottom: 40px;
+                padding: 40px;
+                border-radius: 24px;
+
+                .feature {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                background-color: #f4f2f0;
+                margin-bottom: 20px;
+                
+                    .text {
+                        flex: 1;
+                        padding: 20px;
+                        width: 45%;
+                    
+                        h2 {
+                            color: #0F0F0F ;
+                            margin-bottom: 10px;
+                        }
+                    
+                        
+                        .flexp {
+                            display: flex;
+                            grid-column-gap: 10px;
+                            grid-row-gap: 10px;
+                            color: var(--grey-text);
+                            flex-direction: column;
+                            justify-content: center;
+                            margin-top: 40px;
+                            margin-bottom: 30px;
+                            font-size: 20px;
+                            line-height: 150%;
+                            display: flex;
+                            p {
+                            color: var(--grey-text);
+                            text-align: left;
+                            letter-spacing: 0;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 150%;
+                            color: #6b6b6a ;
+                            margin-bottom: 20px;
+                            }
+                        }
+                         
+
+                        }
+                        .button {
+                            background-color: #212121;
+                            color: #fff;
+                            border: none;
+                            padding: 12px 24px;
+                            border-radius: 8px;
+                            cursor: pointer;
+                            display: inline-block;
+                            border:  none;
+                            text-decoration: none; 
+                            line-height: inherit ;
+
+                                color: #fff;
+    line-height: inherit;
+    cursor: pointer;
+    background-color: #3898ec;
+    border: 0;
+    border-radius: 0;
+    padding: 9px 15px;
+    text-decoration: none;
+    display: inline-block;
+                        
+                            &:hover {
+                                background-color: #218838;
+                            }
+                        }
+                    }
+
+                .image-start{
+
+                    flex: 1;
+                    align-self: flex-start;
+                    width: 55%;
+                    border-width: 10px 0 0 10px;
+
+                    @media screen and (max-width: 991px) {
+                     .banner-image.left {
+                         border-bottom-style: solid;
+                         border-bottom-color: #ffffff54;
+                         border-bottom-right-radius: 24px;
+                         width: 100%;
+    }
+}
+                }
+            
+                .imageend{
+                    flex: 1;
+                    align-self: flex-end;
+                    border-width: 10px 0 0 10px ;
+                    margin-top: 0;
+                
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            }
+            }
+        
