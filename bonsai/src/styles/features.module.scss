@@ -38,6 +38,7 @@
                     align-items: flex-end;
                     margin-left: 0;
                     margin-bottom: -5px;
+                    border-radius: 24px;
 
 
                     img {
@@ -63,6 +64,8 @@
                     align-self: auto;
                     margin-top: 0;
                     display: block;
+                    border-radius: 24px;
+
 
                 
                     img {
@@ -80,7 +83,8 @@
                 background-color: #f4f2f0;
                 // margin: 30px 0px;
                 // border: 2px solid yellow ;
-                
+                border-radius: 24px;
+
                     .text {
                         flex: 1;
                         padding: 20px;   
