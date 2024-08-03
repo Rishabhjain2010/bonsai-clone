@@ -1,46 +1,97 @@
 .section{
     display:  flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 100vh;
-    height: 100vh;
-    width: 100%;
-  max-width: 1360px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 40px;
-  padding-right: 40px;
+
+    width: 90vw ;
+    max-width: 1360px ; 
+    margin-left: 45px;
+    margin-right: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center ;
+    // border: 2px solid #0F0F0F;
 
             .main{
+                align-items: center ;
                 background-color: #f2f4f0;
                 display: flex;
                 position: relative;
                 overflow: visible;
                 flex-direction: column;
-                align-items: center;   
+                
                 justify-content: center;
-                margin-top: 40px;
-                margin-bottom: 40px;
+                margin-top: 30px;
+                margin-bottom: 30px;
                 padding: 40px;
                 border-radius: 24px;
+                // border: 2px solid red;
+                
+                .imagestart{
 
+                    flex: 1;
+                    align-self: flex-start;
+                    width: 55%;
+                    border-width: 10px 0 0 10px;
+                    align-items: flex-end;
+
+
+                    img {
+                        max-width: 100%;
+                    }
+                }
+                   
+                .imageend{
+                    border: solid solid none;
+                    display: block ;    
+                    // flex: 1 ;
+                    max-width: 45%;
+                    padding:   10px 10px 0px 0px;
+                    align-self: flex-end;
+                    border-width: 10px 0 0 10px ;
+                    margin-top: 0;
+                    align-items:  flex-end;
+                    border-style: solid solid none;
+                    border-width: 10px 10px 10px 0;
+                    border-color: #f2f4f4;
+                    border-top-right-radius: 24px;
+                    border-bottom-right-radius: 0;
+                    align-self: auto;
+                    margin-top: 0;
+                    display: block;
+
+                
+                    img {
+                        max-width: 100%;
+                    }
+                }
+            
+            
+        
                 .feature {
                 display: flex;
-                justify-content: space-between;
+                justify-content: left   ;
                 align-items: center;
-                padding: 20px;
+                // padding: 40px;   
                 background-color: #f4f2f0;
-                margin-bottom: 20px;
+                // margin: 30px 0px;
+                // border: 2px solid yellow ;
                 
                     .text {
                         flex: 1;
-                        padding: 20px;
+                        // padding: 20px;   
                         width: 45%;
+                        // margin: 40px;
+                        align-items: left ;
+                        text-align: left;
                     
                         h2 {
+
                             color: #0F0F0F ;
-                            margin-bottom: 10px;
+                            // margin-bottom: 10px;
+                            font-size: 42px;
+                            font: sans-serif;
                         }
                     
                         
@@ -51,11 +102,11 @@
                             color: var(--grey-text);
                             flex-direction: column;
                             justify-content: center;
-                            margin-top: 40px;
-                            margin-bottom: 30px;
+                            margin: 40px 0px 30px ;
                             font-size: 20px;
                             line-height: 150%;
                             display: flex;
+
                             p {
                             color: var(--grey-text);
                             text-align: left;
@@ -64,13 +115,14 @@
                             font-weight: 400;
                             line-height: 150%;
                             color: #6b6b6a ;
-                            margin-bottom: 20px;
+                            margin-bottom: 10px;
+                            font: sans-serif;
                             }
                         }
                          
 
-                        }
                         .button {
+                            font: sans-serif;
                             background-color: #212121;
                             color: #fff;
                             border: none;
@@ -82,49 +134,33 @@
                             text-decoration: none; 
                             line-height: inherit ;
 
-                                color: #fff;
-    line-height: inherit;
-    cursor: pointer;
-    background-color: #3898ec;
-    border: 0;
-    border-radius: 0;
-    padding: 9px 15px;
-    text-decoration: none;
-    display: inline-block;
-                        
+                            line-height: inherit;
+                            cursor: pointer;
+                            border: 0;
+                            text-decoration: none;
+                            display: inline-block;
+                            .buttontext{
+                                color:#fff;
+                                background-color: #212121;
+
+                                &:hover {
+                                    background-color: #313131;
+                                       
+                                 color: #fff;
+
+                                }
+                            }
                             &:hover {
-                                background-color: #218838;
+                                background-color: #313131;
+                                       
+                            color: #fff;
                             }
                         }
                     }
-
-                .image-start{
-
-                    flex: 1;
-                    align-self: flex-start;
-                    width: 55%;
-                    border-width: 10px 0 0 10px;
-
-                    @media screen and (max-width: 991px) {
-                     .banner-image.left {
-                         border-bottom-style: solid;
-                         border-bottom-color: #ffffff54;
-                         border-bottom-right-radius: 24px;
-                         width: 100%;
-    }
-}
-                }
-            
-                .imageend{
-                    flex: 1;
-                    align-self: flex-end;
-                    border-width: 10px 0 0 10px ;
-                    margin-top: 0;
-                
-                    img {
-                        max-width: 100%;
                     }
-                }
-            }
-            }
-        
+
+                
+    
+}
+
+}
