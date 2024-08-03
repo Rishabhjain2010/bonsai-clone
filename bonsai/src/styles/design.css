@@ -57,12 +57,14 @@
   margin-top: 40px;
   margin-right: 90px;
   color: grey;
+  text-align: left;
   line-height: 150%;
 }
 
 .left h1{
   margin-top: 40px;
   font-size: 60px;
+  text-align: left;
   font-weight: 500;
   line-height:100%;
 }
@@ -133,6 +135,7 @@
 .third div h1{
   font-size: x-large;
   font-weight: 600;
+  text-align: left;
 }
 
 .third div p{
@@ -141,6 +144,8 @@
   color: grey;
   margin-right: 50px;
   line-height: 30px;
+  text-align: left;
+
 }
 
 @media (max-width: 760px){
@@ -199,6 +204,7 @@
   justify-content: center;
   font-size: larger;
   gap: 0;
+  text-align: left;
 }
 
 @media (max-width: 1200px){
