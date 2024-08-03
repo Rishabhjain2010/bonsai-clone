@@ -18,7 +18,9 @@ function Dashboard() {
               win clients, get paid, and track your revenue. Start a free trial
               via the link below to get a 30% discount.
             </p>
-            <button>Get 30% off</button>
+            
+            <button className="btn">Get 30% off</button>
+
           </div>
 
           <div className="right">

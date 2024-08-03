@@ -79,6 +79,9 @@
   margin-bottom: 40px;
 }
 
+.left button:hover{
+  background-color: yellow;
+}
 .right{ 
   width: 43%;
   pointer-events: none;
@@ -255,7 +258,6 @@
 
   .second h1{
     font-size:xx-large;
-    font-weight: 400;
   }
 
   .third{
