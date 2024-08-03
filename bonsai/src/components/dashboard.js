@@ -1,9 +1,10 @@
+import React from "react";
 import "../styles/design.css"
 
 
 function Dashboard() {
   return (
-
+ <section className="">
     <div className="App">
       <div className="imgbg"></div>
       <div className="first">
@@ -99,6 +100,7 @@ function Dashboard() {
         </div>
       </div>
     </div>
+</section>    
   );
 }
 

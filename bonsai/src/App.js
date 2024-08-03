@@ -1,10 +1,10 @@
 
-import Dashboard from "./components/Dashboard"
-
 import React from 'react';
+
+import Dashboard from "./components/dashboard"
 import Feature from './components/features';
-import './App.css';
 import Rating from './components/ratings';
+import './App.css';
 
 
 const App = () => {
