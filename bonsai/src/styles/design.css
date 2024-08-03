@@ -1,0 +1,284 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.first{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.imgbg{
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  height: 113vh;
+  width: 36vw;
+  background-color: rgb(244,242,240);
+  border-bottom-left-radius: 110px;
+}
+
+
+.mainbox{
+  padding-top: 10vw;
+  padding-inline: 13vw;
+  display: flex;
+  gap: 133px;
+  justify-content: center;
+}
+
+
+.left{
+  width: 50%;
+  pointer-events: none;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.left h4{
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.dribbble{
+  display: flex;
+  margin-top: 100px;
+  gap: 15px;
+}
+
+.left p{
+  margin-top: 40px;
+  margin-right: 90px;
+  color: grey;
+  line-height: 150%;
+}
+
+.left h1{
+  margin-top: 40px;
+  font-size: 60px;
+  font-weight: 500;
+  line-height:100%;
+}
+
+.left button{
+  height: 45px;
+  width: 130px;
+  border-radius: 7px;
+  background-color: rgb(34,173,1);
+  color: white;
+  font-size: 16px;
+  border: 0cap;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.right{ 
+  width: 43%;
+  pointer-events: none;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.right img{
+  border-top-right-radius: 70px;
+  border-bottom-left-radius: 70px;
+  border-top-left-radius: 7px;
+}
+
+
+.second{
+  padding-top: 9vw;
+  text-align: center;
+  font-size:large ;
+  font-weight: 100;
+}
+
+.second img{
+  margin: 30px;
+  
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: -3px 10px 20px 15px rgba(0,0,0,.1);
+}
+
+@media (max-width: 1100px){
+  .second img{
+    margin: 5px;
+    width: 90%;
+  }
+}
+
+.third{
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 21vw);
+  grid-template-rows: repeat(2, 9vw);
+  gap: 100px;
+  margin-top: 7vw;
+  margin-left: 13vw;
+}
+
+
+.third div h1{
+  font-size: x-large;
+  font-weight: 600;
+}
+
+.third div p{
+  font-size: 15px;
+  font-weight: 500;
+  color: grey;
+  margin-right: 50px;
+  line-height: 30px;
+}
+
+@media (max-width: 760px){
+  .third{
+    display: block;
+    gap: 0;
+    margin-left: 2vw;
+  }
+
+  .third div{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+  }
+
+  .third img{
+    padding-bottom: 10px;
+  }
+
+  .third div p{
+    display: block;
+    line-height: 0;
+    margin: 0 0 10px;
+  }
+
+  .col{
+    flex-direction: column;
+  }
+
+  .third div h1{
+    line-height: 0;
+    font-size: larger;
+    font-weight: 500;
+
+  }
+}
+
+.willian{
+  background-color: rgb(244,242,240);
+  margin-top: 8vw;
+  margin-inline: 14vw;
+  padding: 1vw;
+  gap: 20px;
+  display: flex;
+  position: relative;
+  border-radius: 20px;
+}
+
+.willimg img{
+  border-radius: 15px;
+}
+
+.willtext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: larger;
+  gap: 0;
+}
+
+@media (max-width: 1200px){
+  .third{
+    padding-top: 7vw;
+    grid-template-rows: repeat(2, 14vw);
+
+  }
+}
+
+@media (max-width: 770px){
+  .willimg img{
+    width: 300px;
+   }
+}
+
+@media (max-width: 1000px){
+  .imgbg{
+    height: 0;
+    width: 0;
+  }
+
+  .mainbox {
+    gap: 0;
+    display: flex;
+    padding-top: 20px;
+    padding-inline: 6vw;
+  }
+
+  .right{
+    display: none;
+  }
+
+  .left{
+    padding-inline: 10vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .left h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height:100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .left p{
+    text-align: center;
+    margin-inline: 0;
+  }
+
+  .dribbble{
+    display:block;
+  }
+
+  .second h1{
+    font-size:xx-large;
+    font-weight: 400;
+  }
+
+  .third{
+    padding-top: 7vw;
+    grid-template-rows: repeat(2, 20vw);
+
+  }
+
+  .willian{
+    margin-inline: 4vw;
+    padding: 25px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+    position: absolute;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .willtext{
+    padding-inline: 2vw;
+  }
+}
