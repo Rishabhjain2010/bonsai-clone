@@ -81,9 +81,7 @@
   margin-bottom: 40px;
 }
 
-.left button:hover{
-  background-color: yellow;
-}
+
 .right{ 
   width: 43%;
   pointer-events: none;
@@ -131,6 +129,10 @@
   margin-left: 13vw;
 }
 
+.icon img{
+  display: flex;
+  justify-content: flex-start;
+}
 
 .third div h1{
   font-size: x-large;
