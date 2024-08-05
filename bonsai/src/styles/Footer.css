@@ -108,7 +108,7 @@
     width: 100%;
   }
   
-  .w-dropdown {
+  dropdown {
     text-align: left;
     z-index: 900;
     margin-left: auto;
@@ -136,8 +136,7 @@
     padding-right: 40px;
     display: flex;
   }
-  .w-dropdown-btn,
-  .w-dropdown-toggle,
+  
   .w-dropdown-link {
     vertical-align: top;
     color: #222;
@@ -162,7 +161,7 @@
   
   
   
-  .separator._30 {
+  .lastline {
     margin-top: 30px;
     margin-bottom: 30px;
     border-bottom: 1px solid #d3dcd4;
@@ -170,10 +169,7 @@
   }
   
   
-  .margin-box._40-0-40-0 {
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
+  
   
   .text-size-12 {
     font-size: 12px;
