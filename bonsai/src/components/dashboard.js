@@ -43,7 +43,7 @@ function Dashboard() {
       <div className="third">
         <div className="tasks">
 
-          <div className="icon">
+          <div className="icons">
             <img src="/assets/tasks.svg" alt="" />
           </div>
 
@@ -55,7 +55,7 @@ function Dashboard() {
 
         <div className="time">
 
-          <div className="icon">
+          <div className="icons">
             <img src="/assets/time tracking.svg" alt="" />
           </div>
 
@@ -66,7 +66,7 @@ function Dashboard() {
         </div>
 
         <div className="budget">
-          <div className="icon">
+          <div className="icons">
             <img src="/assets/budget tracking.svg" alt="" />
           </div>
 
@@ -78,7 +78,7 @@ function Dashboard() {
 
         <div className="invoices">
 
-          <div className="icon">
+          <div className="icons">
             <img src="/assets/invoices.svg" alt="" />
           </div>
 
@@ -89,7 +89,7 @@ function Dashboard() {
         </div>
 
         <div className="resourcing">
-          <div className="icon">
+          <div className="icons">
             <img src="/assets/resourcing.svg" alt="" />
           </div>
 
@@ -100,7 +100,7 @@ function Dashboard() {
         </div>
 
         <div className="reports">
-          <div className="icon">
+          <div className="icons">
             <img src="/assets/reports.svg" alt="" />
           </div>
 
