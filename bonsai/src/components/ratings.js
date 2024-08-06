@@ -15,7 +15,7 @@ const Rating = () => {
             ))}
           </div>
           <div className={styles.ratingdiv}>
-            <img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/6656028b3c042e2df5f9404f_capterra.webp" height="20px" />
+            <img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/6656028b3c042e2df5f9404f_capterra.webp" alt="" height="20px" />
             <div className={styles.ratingtext}>4.8/5 on Capterra</div>
           </div>
         </div>
@@ -26,7 +26,7 @@ const Rating = () => {
             ))}
           </div>
           <div className={styles.ratingdiv}>
-            <img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/665604182d3e9978690a021d_g2.webp" height="20px"/>
+            <img src="https://cdn.prod.website-files.com/635ac9564cc3682ce1536786/665604182d3e9978690a021d_g2.webp" alt="" height="20px"/>
             <div className={styles.ratingtext}>4.8/5 on G2</div>
           </div>
         </div>
