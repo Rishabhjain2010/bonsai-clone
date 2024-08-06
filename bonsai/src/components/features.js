@@ -59,6 +59,7 @@ return (
                             <p> ✓ Centralize client info in your CRM. </p>
                             <p> ✓ Send invoices & get paid. </p>
                             <p> ✓ Automate all your workflows. </p>
+
                         </div>
                     <div className={styles.button}>
                     <button className={styles.button}>Get Started</button>

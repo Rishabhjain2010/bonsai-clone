@@ -1,3 +1,9 @@
+
+.section1{
+
+  display: flex ;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -58,13 +64,14 @@
   margin-right: 90px;
   color: grey;
   text-align: left;
-  line-height: 150%;
+
 }
 
 .left h1{
   margin-top: 40px;
   font-size: 60px;
   text-align: left;
+
   font-weight: 500;
   line-height:100%;
 }
@@ -80,7 +87,6 @@
   margin-top: 20px;
   margin-bottom: 40px;
 }
-
 
 .right{ 
   width: 43%;
@@ -129,15 +135,18 @@
   margin-left: 13vw;
 }
 
+
 .icon img{
   display: flex;
   justify-content: flex-start;
 }
 
+
 .third div h1{
   font-size: x-large;
   font-weight: 600;
   text-align: left;
+
 }
 
 .third div p{
@@ -207,6 +216,7 @@
   font-size: larger;
   gap: 0;
   text-align: left;
+
 }
 
 @media (max-width: 1200px){
@@ -266,6 +276,9 @@
 
   .second h1{
     font-size:xx-large;
+
+    font-weight: 400;
+
   }
 
   .third{

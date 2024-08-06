@@ -1,8 +1,13 @@
+
+import React from "react";
+
 import "../styles/design.css"
 
 
 function Dashboard() {
   return (
+
+ <section className="">
 
     <div className="App">
       <div className="imgbg"></div>
@@ -21,6 +26,7 @@ function Dashboard() {
             
             <button className="btn">Get 30% off</button>
 
+
           </div>
 
           <div className="right">
@@ -36,9 +42,11 @@ function Dashboard() {
 
       <div className="third">
         <div className="tasks">
+
           <div className="icon">
             <img src="/assets/tasks.svg" alt="" />
           </div>
+
           <div className="col">
             <h1>Tasks</h1>
             <p>Assign, estimate, and track tasks across projects.</p>
@@ -46,9 +54,11 @@ function Dashboard() {
         </div>
 
         <div className="time">
+
           <div className="icon">
             <img src="/assets/time tracking.svg" alt="" />
           </div>
+
           <div className="col">
             <h1>Time Tracking</h1>
             <p>See where time is spent with the tracker and timesheets.</p>
@@ -59,6 +69,7 @@ function Dashboard() {
           <div className="icon">
             <img src="/assets/budget tracking.svg" alt="" />
           </div>
+
           <div className="col">
             <h1>budget Tracking</h1>
             <p>Keep projects profitable and stay within budget.</p>
@@ -66,9 +77,11 @@ function Dashboard() {
         </div>
 
         <div className="invoices">
+
           <div className="icon">
             <img src="/assets/invoices.svg" alt="" />
           </div>
+
           <div className="col">
             <h1>Invoices</h1>
             <p>Get paid faster with integrated billing and online payments.</p>
@@ -79,6 +92,7 @@ function Dashboard() {
           <div className="icon">
             <img src="/assets/resourcing.svg" alt="" />
           </div>
+
           <div className="col">
             <h1>Resourcing</h1>
             <p>Plan work schedules on capacity and ongoing commitments.</p>
@@ -89,6 +103,7 @@ function Dashboard() {
           <div className="icon">
             <img src="/assets/reports.svg" alt="" />
           </div>
+
           <div className="col">
             <h1>Reports</h1>
             <p>Dive into each project's performance with real-time data.</p>
@@ -111,8 +126,10 @@ function Dashboard() {
             <p>Zabal Media</p>
           </div>
         </div>
-      </div>      
+
+      </div>
     </div>
+</section>    
   );
 }
 
