@@ -1,6 +1,8 @@
-import React from 'react';
 
-import Dashboard from "./components/dashboard"
+import React from 'react';
+import Signup from './components/signup';
+import Getstarted from './components/getstarted';
+import Dashboard from "./components/dashboard";
 import Feature from './components/features';
 import Rating from './components/ratings';
 import Navbar from './components/Navbar';
@@ -17,6 +19,8 @@ const App = () => {
     <Dashboard />
     <Feature/>
     <Rating/>
+    <Signup/>
+    <Getstarted/>
     <Footer />
 
 
